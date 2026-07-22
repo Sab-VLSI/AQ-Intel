@@ -1,0 +1,17 @@
+[
+  {
+    "month": "2026-05",
+    "curated_cases": 1,
+    "observed_cases": 2
+  },
+  {
+    "month": "2026-06",
+    "curated_cases": 2,
+    "observed_cases": 5
+  },
+  {
+    "month": "2026-07",
+    "curated_cases": 94,
+    "observed_cases": 48
+  }
+]

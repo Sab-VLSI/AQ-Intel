@@ -1,0 +1,22 @@
+{
+  "provider": "CPCB CAAQMS",
+  "observation_network": "CPCB CAAQMS",
+  "station_id": "Alandur Bus Depot, Chennai - CPCB",
+  "station": "Alandur Bus Depot, Chennai - CPCB",
+  "timestamp": "2026-07-22T18:51:51.495996",
+  "freshness_minutes": 0,
+  "averaging_window": "24 hour",
+  "pollutants": {
+    "pm25": 48.0,
+    "pm10": 42.0,
+    "no2": 13.0
+  },
+  "sub_indices": {
+    "pm25": 80.0,
+    "pm10": 42.0,
+    "no2": 16.2
+  },
+  "dominant_pollutant": "pm25",
+  "computed_aqi": 80,
+  "confidence_score": 88
+}

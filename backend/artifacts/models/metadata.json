@@ -1,0 +1,42 @@
+{
+  "model_version": "1.0.0",
+  "training_timestamp": "2026-07-22T07:15:42.379485",
+  "feature_version": "1.0.0",
+  "pipeline_version": "1.0.0",
+  "dataset_size": 200,
+  "validation_metrics": {
+    "accuracy": 0.9,
+    "macro_precision": 0.9252136752136753,
+    "macro_recall": 0.7807692307692309,
+    "macro_f1": 0.7846907993966817,
+    "weighted_precision": 0.9088888888888889,
+    "weighted_recall": 0.9,
+    "weighted_f1": 0.8756862745098039,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        24,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        1
+      ]
+    ]
+  }
+}

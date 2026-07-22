@@ -1,0 +1,63 @@
+{
+  "query": "13.0827, 80.2707",
+  "is_city_query": false,
+  "timestamp": "2026-07-22T11:28:48.745511",
+  "candidate_stations": [
+    {
+      "station": "Royapuram, Chennai - TNPCB",
+      "id": "11578",
+      "distance_km": 3.19,
+      "score": 97,
+      "computed_aqi": 62.0,
+      "timestamp": "2026-07-22T10:30:00"
+    },
+    {
+      "station": "Manali, Chennai - CPCB",
+      "id": "2586",
+      "distance_km": 9.14,
+      "score": 88,
+      "computed_aqi": 69.1,
+      "timestamp": "2026-07-22T10:30:00"
+    },
+    {
+      "station": "Velachery Res. Area, Chennai - CPCB",
+      "id": "5655",
+      "distance_km": 9.24,
+      "score": 88,
+      "computed_aqi": 107.9,
+      "timestamp": "2026-07-22T10:30:00"
+    },
+    {
+      "station": "Manali Village, Chennai - TNPCB",
+      "id": "10780",
+      "distance_km": 9.38,
+      "score": 88,
+      "computed_aqi": 51.0,
+      "timestamp": "2026-07-22T10:30:00"
+    },
+    {
+      "station": "Kodungaiyur, Chennai - TNPCB",
+      "id": "11579",
+      "distance_km": 5.06,
+      "score": 88,
+      "computed_aqi": 73.0,
+      "timestamp": "2026-07-22T10:30:00"
+    },
+    {
+      "station": "Arumbakkam, Chennai - TNPCB",
+      "id": "11581",
+      "distance_km": 6.69,
+      "score": 82,
+      "computed_aqi": 85.4,
+      "timestamp": "2026-07-22T10:30:00"
+    },
+    {
+      "station": "Chennai",
+      "id": "8558",
+      "distance_km": 1.02,
+      "score": 72,
+      "computed_aqi": 56.7,
+      "timestamp": "2026-07-22T10:30:00"
+    }
+  ]
+}

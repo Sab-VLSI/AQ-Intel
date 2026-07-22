@@ -1,0 +1,6580 @@
+{
+  "curated_case_0_6de16373": {
+    "case_id": "curated_case_0_6de16373",
+    "timestamp": "2026-07-11T10:35:15.458228",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:35:15.461717"
+  },
+  "curated_case_1_1dbd5633": {
+    "case_id": "curated_case_1_1dbd5633",
+    "timestamp": "2026-07-10T10:35:15.468512",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:35:15.469036"
+  },
+  "observed_case_0_4780c464": {
+    "case_id": "observed_case_0_4780c464",
+    "timestamp": "2026-07-16T10:35:15.760750",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T10:35:15.760750"
+  },
+  "curated_case_0_661f9a3a": {
+    "case_id": "curated_case_0_661f9a3a",
+    "timestamp": "2026-07-11T10:35:58.848258",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:35:58.848810"
+  },
+  "curated_case_1_021bea8b": {
+    "case_id": "curated_case_1_021bea8b",
+    "timestamp": "2026-07-10T10:35:58.866901",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:35:58.866901"
+  },
+  "observed_case_0_6cabf633": {
+    "case_id": "observed_case_0_6cabf633",
+    "timestamp": "2026-07-16T10:35:58.942451",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T10:35:58.942451"
+  },
+  "curated_case_0_3119dcfb": {
+    "case_id": "curated_case_0_3119dcfb",
+    "timestamp": "2026-07-11T10:36:22.881588",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:36:22.881588"
+  },
+  "curated_case_1_b5905128": {
+    "case_id": "curated_case_1_b5905128",
+    "timestamp": "2026-07-10T10:36:22.899287",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:36:22.899287"
+  },
+  "observed_case_0_389ba820": {
+    "case_id": "observed_case_0_389ba820",
+    "timestamp": "2026-07-16T10:36:22.956444",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T10:36:22.957415"
+  },
+  "test_case_123": {
+    "case_id": "test_case_123",
+    "timestamp": "2026-07-22T07:15:38.901556",
+    "city": "Chennai",
+    "ward": "Adyar",
+    "latitude": 13.0063,
+    "longitude": 80.2574,
+    "environmental_state": {
+      "aqi": 120.0,
+      "pm25": 45.0,
+      "pm10": 90.0,
+      "no2": 15.0,
+      "so2": 6.0,
+      "co": 0.8,
+      "o3": 24.0
+    },
+    "weather_state": {
+      "temperature": 31.0,
+      "humidity": 70.0,
+      "wind_speed": 2.5,
+      "wind_direction": 180.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 130.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 150.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.82,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Scheme",
+      "actual_action": "Odd-Even Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 105.0,
+      "aqi_after_48h": 95.0,
+      "aqi_after_72h": 90.0,
+      "improvement_status": "Improved"
+    },
+    "source": "observed",
+    "created_at": "2026-07-22T07:16:00.288007"
+  },
+  "curated_case_0_f25deb34": {
+    "case_id": "curated_case_0_f25deb34",
+    "timestamp": "2026-07-11T10:37:09.892541",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:37:09.893525"
+  },
+  "curated_case_1_fcd2c986": {
+    "case_id": "curated_case_1_fcd2c986",
+    "timestamp": "2026-07-10T10:37:09.916086",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:37:09.916086"
+  },
+  "observed_case_0_fcd5bb69": {
+    "case_id": "observed_case_0_fcd5bb69",
+    "timestamp": "2026-07-16T10:37:09.935779",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T10:37:09.935779"
+  },
+  "curated_case_0_a5cce581": {
+    "case_id": "curated_case_0_a5cce581",
+    "timestamp": "2026-07-11T10:53:58.528964",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:53:58.528964"
+  },
+  "curated_case_1_ea1bc364": {
+    "case_id": "curated_case_1_ea1bc364",
+    "timestamp": "2026-07-10T10:53:58.555760",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T10:53:58.555760"
+  },
+  "observed_case_0_ad5d62ee": {
+    "case_id": "observed_case_0_ad5d62ee",
+    "timestamp": "2026-07-16T10:53:58.579979",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T10:53:58.579979"
+  },
+  "curated_case_0_d585aae6": {
+    "case_id": "curated_case_0_d585aae6",
+    "timestamp": "2026-07-11T11:40:02.983364",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T11:40:02.983364"
+  },
+  "curated_case_1_edee2acf": {
+    "case_id": "curated_case_1_edee2acf",
+    "timestamp": "2026-07-10T11:40:03.012362",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T11:40:03.012362"
+  },
+  "observed_case_0_2ea97235": {
+    "case_id": "observed_case_0_2ea97235",
+    "timestamp": "2026-07-16T11:40:03.039363",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T11:40:03.039363"
+  },
+  "curated_case_0_0e5edb72": {
+    "case_id": "curated_case_0_0e5edb72",
+    "timestamp": "2026-07-11T11:41:04.901833",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T11:41:04.902887"
+  },
+  "curated_case_1_a03d796d": {
+    "case_id": "curated_case_1_a03d796d",
+    "timestamp": "2026-07-10T11:41:04.926835",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T11:41:04.926835"
+  },
+  "observed_case_0_2c54702a": {
+    "case_id": "observed_case_0_2c54702a",
+    "timestamp": "2026-07-16T11:41:04.961891",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T11:41:04.961891"
+  },
+  "curated_case_0_b7004e84": {
+    "case_id": "curated_case_0_b7004e84",
+    "timestamp": "2026-07-11T12:38:07.144691",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:38:07.144691"
+  },
+  "curated_case_1_15d34e80": {
+    "case_id": "curated_case_1_15d34e80",
+    "timestamp": "2026-07-10T12:38:07.163485",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:38:07.163485"
+  },
+  "observed_case_0_6a9a14a3": {
+    "case_id": "observed_case_0_6a9a14a3",
+    "timestamp": "2026-07-16T12:38:07.203113",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T12:38:07.203113"
+  },
+  "curated_case_0_e88f9500": {
+    "case_id": "curated_case_0_e88f9500",
+    "timestamp": "2026-07-11T12:39:05.767582",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:39:05.767582"
+  },
+  "curated_case_1_cd426000": {
+    "case_id": "curated_case_1_cd426000",
+    "timestamp": "2026-07-10T12:39:05.793582",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:39:05.793582"
+  },
+  "observed_case_0_215a2afa": {
+    "case_id": "observed_case_0_215a2afa",
+    "timestamp": "2026-07-16T12:39:05.821581",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T12:39:05.821581"
+  },
+  "curated_case_0_e9a7de8c": {
+    "case_id": "curated_case_0_e9a7de8c",
+    "timestamp": "2026-07-11T12:39:29.317185",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:39:29.317185"
+  },
+  "curated_case_1_4f9ecaa2": {
+    "case_id": "curated_case_1_4f9ecaa2",
+    "timestamp": "2026-07-10T12:39:29.345597",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:39:29.346598"
+  },
+  "observed_case_0_bc8768ee": {
+    "case_id": "observed_case_0_bc8768ee",
+    "timestamp": "2026-07-16T12:39:29.381825",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T12:39:29.381825"
+  },
+  "curated_case_0_b94c4d93": {
+    "case_id": "curated_case_0_b94c4d93",
+    "timestamp": "2026-07-11T12:51:42.608967",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:51:42.608967"
+  },
+  "curated_case_1_21a376b7": {
+    "case_id": "curated_case_1_21a376b7",
+    "timestamp": "2026-07-10T12:51:42.637932",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:51:42.637932"
+  },
+  "observed_case_0_3323f259": {
+    "case_id": "observed_case_0_3323f259",
+    "timestamp": "2026-07-16T12:51:42.673359",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T12:51:42.673359"
+  },
+  "curated_case_0_d7a45571": {
+    "case_id": "curated_case_0_d7a45571",
+    "timestamp": "2026-07-11T12:52:37.259297",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:52:37.259297"
+  },
+  "curated_case_1_65ac4846": {
+    "case_id": "curated_case_1_65ac4846",
+    "timestamp": "2026-07-10T12:52:37.294925",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T12:52:37.294925"
+  },
+  "observed_case_0_e9a57e5c": {
+    "case_id": "observed_case_0_e9a57e5c",
+    "timestamp": "2026-07-16T12:52:37.332197",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T12:52:37.332197"
+  },
+  "curated_case_0_d5070846": {
+    "case_id": "curated_case_0_d5070846",
+    "timestamp": "2026-07-11T13:01:58.632526",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T13:01:58.632526"
+  },
+  "curated_case_1_956190a2": {
+    "case_id": "curated_case_1_956190a2",
+    "timestamp": "2026-07-10T13:01:58.676841",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-16T13:01:58.676841"
+  },
+  "observed_case_0_45941ecd": {
+    "case_id": "observed_case_0_45941ecd",
+    "timestamp": "2026-07-16T13:01:58.721577",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-16T13:01:58.721577"
+  },
+  "curated_case_0_4dec2cad": {
+    "case_id": "curated_case_0_4dec2cad",
+    "timestamp": "2026-07-12T05:54:49.300752",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T05:54:49.300752"
+  },
+  "curated_case_1_a4243765": {
+    "case_id": "curated_case_1_a4243765",
+    "timestamp": "2026-07-11T05:54:49.371011",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T05:54:49.371011"
+  },
+  "observed_case_0_b1b44c48": {
+    "case_id": "observed_case_0_b1b44c48",
+    "timestamp": "2026-07-17T05:54:49.446504",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-17T05:54:49.446504"
+  },
+  "curated_case_0_3a3fa2db": {
+    "case_id": "curated_case_0_3a3fa2db",
+    "timestamp": "2026-07-12T05:58:47.510739",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T05:58:47.510739"
+  },
+  "curated_case_1_58728d9a": {
+    "case_id": "curated_case_1_58728d9a",
+    "timestamp": "2026-07-11T05:58:47.580975",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T05:58:47.580975"
+  },
+  "observed_case_0_03fb116f": {
+    "case_id": "observed_case_0_03fb116f",
+    "timestamp": "2026-07-17T05:58:47.652256",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-17T05:58:47.652256"
+  },
+  "curated_case_0_86ed7b91": {
+    "case_id": "curated_case_0_86ed7b91",
+    "timestamp": "2026-07-12T06:31:35.241598",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T06:31:35.243066"
+  },
+  "curated_case_1_ffcf0e14": {
+    "case_id": "curated_case_1_ffcf0e14",
+    "timestamp": "2026-07-11T06:31:35.287112",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T06:31:35.287112"
+  },
+  "observed_case_0_f5bccb3d": {
+    "case_id": "observed_case_0_f5bccb3d",
+    "timestamp": "2026-07-17T06:31:35.336626",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-17T06:31:35.337906"
+  },
+  "curated_case_0_d119e72b": {
+    "case_id": "curated_case_0_d119e72b",
+    "timestamp": "2026-07-12T08:13:59.981247",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:13:59.981247"
+  },
+  "curated_case_1_67867808": {
+    "case_id": "curated_case_1_67867808",
+    "timestamp": "2026-07-11T08:14:00.039043",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:14:00.040044"
+  },
+  "observed_case_0_fa8f7b2f": {
+    "case_id": "observed_case_0_fa8f7b2f",
+    "timestamp": "2026-07-17T08:14:00.099256",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-17T08:14:00.099256"
+  },
+  "curated_case_0_0fc5ddac": {
+    "case_id": "curated_case_0_0fc5ddac",
+    "timestamp": "2026-07-12T08:19:49.831470",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:19:49.831470"
+  },
+  "curated_case_1_544a19ba": {
+    "case_id": "curated_case_1_544a19ba",
+    "timestamp": "2026-07-11T08:19:49.880274",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:19:49.880274"
+  },
+  "observed_case_0_c55d6cb7": {
+    "case_id": "observed_case_0_c55d6cb7",
+    "timestamp": "2026-07-17T08:19:49.933920",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-17T08:19:49.935064"
+  },
+  "curated_case_0_594d6271": {
+    "case_id": "curated_case_0_594d6271",
+    "timestamp": "2026-07-12T08:20:45.232905",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:20:45.232905"
+  },
+  "curated_case_1_15450be2": {
+    "case_id": "curated_case_1_15450be2",
+    "timestamp": "2026-07-11T08:20:45.287760",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:20:45.288269"
+  },
+  "observed_case_0_23b9c70e": {
+    "case_id": "observed_case_0_23b9c70e",
+    "timestamp": "2026-07-17T08:20:45.358033",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-17T08:20:45.358033"
+  },
+  "curated_case_0_9e9f8776": {
+    "case_id": "curated_case_0_9e9f8776",
+    "timestamp": "2026-07-12T08:21:15.936070",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:21:15.936070"
+  },
+  "curated_case_1_78408c76": {
+    "case_id": "curated_case_1_78408c76",
+    "timestamp": "2026-07-11T08:21:15.989017",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:21:15.989017"
+  },
+  "observed_case_0_d493dfb1": {
+    "case_id": "observed_case_0_d493dfb1",
+    "timestamp": "2026-07-17T08:21:16.051267",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-17T08:21:16.051267"
+  },
+  "curated_case_0_7e2cdaf2": {
+    "case_id": "curated_case_0_7e2cdaf2",
+    "timestamp": "2026-07-12T08:21:48.502791",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:21:48.502791"
+  },
+  "curated_case_1_23eddc94": {
+    "case_id": "curated_case_1_23eddc94",
+    "timestamp": "2026-07-11T08:21:48.564434",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-17T08:21:48.566053"
+  },
+  "observed_case_0_8577a662": {
+    "case_id": "observed_case_0_8577a662",
+    "timestamp": "2026-07-17T08:21:48.637962",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-17T08:21:48.637962"
+  },
+  "curated_case_0_ec0cce7f": {
+    "case_id": "curated_case_0_ec0cce7f",
+    "timestamp": "2026-07-13T04:31:35.123285",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T04:31:35.123285"
+  },
+  "curated_case_1_784291b6": {
+    "case_id": "curated_case_1_784291b6",
+    "timestamp": "2026-07-12T04:31:35.184697",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T04:31:35.184697"
+  },
+  "observed_case_0_c6d705fe": {
+    "case_id": "observed_case_0_c6d705fe",
+    "timestamp": "2026-07-18T04:31:35.256395",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-18T04:31:35.256395"
+  },
+  "curated_case_0_c62c25bd": {
+    "case_id": "curated_case_0_c62c25bd",
+    "timestamp": "2026-07-13T04:32:02.393455",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T04:32:02.393455"
+  },
+  "curated_case_1_fffcdf14": {
+    "case_id": "curated_case_1_fffcdf14",
+    "timestamp": "2026-07-12T04:32:02.456470",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T04:32:02.456470"
+  },
+  "observed_case_0_ca514917": {
+    "case_id": "observed_case_0_ca514917",
+    "timestamp": "2026-07-18T04:32:02.531322",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-18T04:32:02.531322"
+  },
+  "curated_case_0_7c7dcfa9": {
+    "case_id": "curated_case_0_7c7dcfa9",
+    "timestamp": "2026-07-13T04:51:13.984394",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T04:51:13.984394"
+  },
+  "curated_case_1_17d6ab1a": {
+    "case_id": "curated_case_1_17d6ab1a",
+    "timestamp": "2026-07-12T04:51:14.041394",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T04:51:14.041394"
+  },
+  "observed_case_0_2d0fceab": {
+    "case_id": "observed_case_0_2d0fceab",
+    "timestamp": "2026-07-18T04:51:14.105464",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-18T04:51:14.105464"
+  },
+  "curated_case_0_62005b42": {
+    "case_id": "curated_case_0_62005b42",
+    "timestamp": "2026-07-13T04:51:51.111519",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T04:51:51.111519"
+  },
+  "curated_case_1_6865882f": {
+    "case_id": "curated_case_1_6865882f",
+    "timestamp": "2026-07-12T04:51:51.194198",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T04:51:51.194198"
+  },
+  "observed_case_0_63c1eb52": {
+    "case_id": "observed_case_0_63c1eb52",
+    "timestamp": "2026-07-18T04:51:51.313710",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-18T04:51:51.313710"
+  },
+  "curated_case_0_a158419d": {
+    "case_id": "curated_case_0_a158419d",
+    "timestamp": "2026-07-13T05:13:01.565719",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T05:13:01.565719"
+  },
+  "curated_case_1_d5bb5e2b": {
+    "case_id": "curated_case_1_d5bb5e2b",
+    "timestamp": "2026-07-12T05:13:01.634708",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T05:13:01.634708"
+  },
+  "observed_case_0_34d0bf2d": {
+    "case_id": "observed_case_0_34d0bf2d",
+    "timestamp": "2026-07-18T05:13:01.702726",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-18T05:13:01.702726"
+  },
+  "curated_case_0_11823493": {
+    "case_id": "curated_case_0_11823493",
+    "timestamp": "2026-07-13T05:13:33.849832",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T05:13:33.849832"
+  },
+  "curated_case_1_fcfbd4b5": {
+    "case_id": "curated_case_1_fcfbd4b5",
+    "timestamp": "2026-07-12T05:13:33.912930",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-18T05:13:33.912930"
+  },
+  "observed_case_0_64b0d609": {
+    "case_id": "observed_case_0_64b0d609",
+    "timestamp": "2026-07-18T05:13:33.983577",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-18T05:13:33.984571"
+  },
+  "curated_case_0_b378089a": {
+    "case_id": "curated_case_0_b378089a",
+    "timestamp": "2026-07-14T05:19:21.976041",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T05:19:21.976041"
+  },
+  "curated_case_1_b2e60ac3": {
+    "case_id": "curated_case_1_b2e60ac3",
+    "timestamp": "2026-07-13T05:19:22.048085",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T05:19:22.048085"
+  },
+  "observed_case_0_879b44af": {
+    "case_id": "observed_case_0_879b44af",
+    "timestamp": "2026-07-19T05:19:22.130925",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-19T05:19:22.130925"
+  },
+  "curated_case_0_058894c3": {
+    "case_id": "curated_case_0_058894c3",
+    "timestamp": "2026-07-14T05:20:36.836324",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T05:20:36.836324"
+  },
+  "curated_case_1_a5bc49e4": {
+    "case_id": "curated_case_1_a5bc49e4",
+    "timestamp": "2026-07-13T05:20:36.920352",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T05:20:36.920352"
+  },
+  "observed_case_0_ad4573c7": {
+    "case_id": "observed_case_0_ad4573c7",
+    "timestamp": "2026-07-19T05:20:37.034488",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-19T05:20:37.034488"
+  },
+  "curated_case_0_d822bc2b": {
+    "case_id": "curated_case_0_d822bc2b",
+    "timestamp": "2026-07-14T05:24:35.023776",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T05:24:35.023776"
+  },
+  "curated_case_1_5ae676a6": {
+    "case_id": "curated_case_1_5ae676a6",
+    "timestamp": "2026-07-13T05:24:35.108576",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T05:24:35.108576"
+  },
+  "observed_case_0_1873dda8": {
+    "case_id": "observed_case_0_1873dda8",
+    "timestamp": "2026-07-19T05:24:35.255135",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-19T05:24:35.255135"
+  },
+  "curated_case_0_0178181b": {
+    "case_id": "curated_case_0_0178181b",
+    "timestamp": "2026-07-14T11:40:38.215850",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T11:40:38.215850"
+  },
+  "curated_case_1_2151d51e": {
+    "case_id": "curated_case_1_2151d51e",
+    "timestamp": "2026-07-13T11:40:38.291938",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T11:40:38.291938"
+  },
+  "observed_case_0_424f006e": {
+    "case_id": "observed_case_0_424f006e",
+    "timestamp": "2026-07-19T11:40:38.399776",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-19T11:40:38.399776"
+  },
+  "curated_case_0_6211b6a7": {
+    "case_id": "curated_case_0_6211b6a7",
+    "timestamp": "2026-07-14T11:42:51.816025",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T11:42:51.816025"
+  },
+  "curated_case_1_fa89eba9": {
+    "case_id": "curated_case_1_fa89eba9",
+    "timestamp": "2026-07-13T11:42:51.896768",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T11:42:51.896768"
+  },
+  "observed_case_0_56f574db": {
+    "case_id": "observed_case_0_56f574db",
+    "timestamp": "2026-07-19T11:42:51.983674",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-19T11:42:51.984272"
+  },
+  "curated_case_0_15e0816e": {
+    "case_id": "curated_case_0_15e0816e",
+    "timestamp": "2026-07-14T12:17:21.533630",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T12:17:21.533630"
+  },
+  "curated_case_1_bd809cc7": {
+    "case_id": "curated_case_1_bd809cc7",
+    "timestamp": "2026-07-13T12:17:21.616914",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T12:17:21.616914"
+  },
+  "observed_case_0_cece59d7": {
+    "case_id": "observed_case_0_cece59d7",
+    "timestamp": "2026-07-19T12:17:21.707478",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-19T12:17:21.707478"
+  },
+  "curated_case_0_cbbc9a16": {
+    "case_id": "curated_case_0_cbbc9a16",
+    "timestamp": "2026-07-14T12:18:04.590578",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T12:18:04.590578"
+  },
+  "curated_case_1_21f4d603": {
+    "case_id": "curated_case_1_21f4d603",
+    "timestamp": "2026-07-13T12:18:04.689274",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-19T12:18:04.689274"
+  },
+  "observed_case_0_2b24db9e": {
+    "case_id": "observed_case_0_2b24db9e",
+    "timestamp": "2026-07-19T12:18:04.798429",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-19T12:18:04.798429"
+  },
+  "curated_case_0_df563020": {
+    "case_id": "curated_case_0_df563020",
+    "timestamp": "2026-07-15T06:04:37.768525",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-20T06:04:37.768525"
+  },
+  "curated_case_1_e6b4c971": {
+    "case_id": "curated_case_1_e6b4c971",
+    "timestamp": "2026-07-14T06:04:37.940114",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-20T06:04:37.940114"
+  },
+  "observed_case_0_72e1d27b": {
+    "case_id": "observed_case_0_72e1d27b",
+    "timestamp": "2026-07-20T06:04:38.338668",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-20T06:04:38.338668"
+  },
+  "curated_case_0_d1575025": {
+    "case_id": "curated_case_0_d1575025",
+    "timestamp": "2026-07-15T06:05:47.447544",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-20T06:05:47.447544"
+  },
+  "curated_case_1_1f9fd060": {
+    "case_id": "curated_case_1_1f9fd060",
+    "timestamp": "2026-07-14T06:05:47.582661",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-20T06:05:47.582661"
+  },
+  "observed_case_0_ba89e75d": {
+    "case_id": "observed_case_0_ba89e75d",
+    "timestamp": "2026-07-20T06:05:47.703073",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-20T06:05:47.703073"
+  },
+  "curated_case_0_12ba7ac0": {
+    "case_id": "curated_case_0_12ba7ac0",
+    "timestamp": "2026-07-15T06:16:40.877763",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-20T06:16:40.877763"
+  },
+  "curated_case_1_16d2a94d": {
+    "case_id": "curated_case_1_16d2a94d",
+    "timestamp": "2026-07-14T06:16:40.965127",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-20T06:16:40.965127"
+  },
+  "observed_case_0_011a9069": {
+    "case_id": "observed_case_0_011a9069",
+    "timestamp": "2026-07-20T06:16:41.059266",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-20T06:16:41.059266"
+  },
+  "curated_case_0_fcb592ed": {
+    "case_id": "curated_case_0_fcb592ed",
+    "timestamp": "2026-07-15T07:16:52.495603",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-20T07:16:52.495603"
+  },
+  "curated_case_1_220e9bd9": {
+    "case_id": "curated_case_1_220e9bd9",
+    "timestamp": "2026-07-14T07:16:52.571509",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-20T07:16:52.571509"
+  },
+  "observed_case_0_04afa80e": {
+    "case_id": "observed_case_0_04afa80e",
+    "timestamp": "2026-07-20T07:16:52.653988",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-20T07:16:52.653988"
+  },
+  "curated_case_0_5f840bc0": {
+    "case_id": "curated_case_0_5f840bc0",
+    "timestamp": "2026-07-16T10:41:11.797227",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-21T10:41:11.797227"
+  },
+  "curated_case_1_8218ae53": {
+    "case_id": "curated_case_1_8218ae53",
+    "timestamp": "2026-07-15T10:41:11.928416",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-21T10:41:11.928416"
+  },
+  "observed_case_0_23551494": {
+    "case_id": "observed_case_0_23551494",
+    "timestamp": "2026-07-21T10:41:12.063771",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-21T10:41:12.063771"
+  },
+  "curated_case_0_156390ee": {
+    "case_id": "curated_case_0_156390ee",
+    "timestamp": "2026-07-16T10:44:31.591845",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-21T10:44:31.591845"
+  },
+  "curated_case_1_3b15ac3a": {
+    "case_id": "curated_case_1_3b15ac3a",
+    "timestamp": "2026-07-15T10:44:31.698399",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-21T10:44:31.699399"
+  },
+  "observed_case_0_5577f464": {
+    "case_id": "observed_case_0_5577f464",
+    "timestamp": "2026-07-21T10:44:31.814327",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-21T10:44:31.814327"
+  },
+  "curated_case_0_0bd0b51f": {
+    "case_id": "curated_case_0_0bd0b51f",
+    "timestamp": "2026-07-16T13:05:30.024309",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-21T13:05:30.024309"
+  },
+  "curated_case_1_5bcede80": {
+    "case_id": "curated_case_1_5bcede80",
+    "timestamp": "2026-07-15T13:05:30.132076",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-21T13:05:30.132076"
+  },
+  "observed_case_0_88c05655": {
+    "case_id": "observed_case_0_88c05655",
+    "timestamp": "2026-07-21T13:05:30.237117",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-21T13:05:30.237117"
+  },
+  "curated_case_0_49f943d3": {
+    "case_id": "curated_case_0_49f943d3",
+    "timestamp": "2026-07-16T13:07:16.899236",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-21T13:07:16.899236"
+  },
+  "curated_case_1_c3916050": {
+    "case_id": "curated_case_1_c3916050",
+    "timestamp": "2026-07-15T13:07:17.002239",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-21T13:07:17.002239"
+  },
+  "observed_case_0_ab7a48a4": {
+    "case_id": "observed_case_0_ab7a48a4",
+    "timestamp": "2026-07-21T13:07:17.114239",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-21T13:07:17.114239"
+  },
+  "curated_case_0_fc96872d": {
+    "case_id": "curated_case_0_fc96872d",
+    "timestamp": "2026-07-17T05:18:46.689524",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T05:18:46.689524"
+  },
+  "curated_case_1_42aea6e5": {
+    "case_id": "curated_case_1_42aea6e5",
+    "timestamp": "2026-07-16T05:18:46.895158",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T05:18:46.895158"
+  },
+  "observed_case_0_b06c56c5": {
+    "case_id": "observed_case_0_b06c56c5",
+    "timestamp": "2026-07-22T05:18:47.107775",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-22T05:18:47.107775"
+  },
+  "curated_case_0_62ebd6c8": {
+    "case_id": "curated_case_0_62ebd6c8",
+    "timestamp": "2026-07-17T05:26:43.540171",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T05:26:43.540171"
+  },
+  "curated_case_1_b26478c4": {
+    "case_id": "curated_case_1_b26478c4",
+    "timestamp": "2026-07-16T05:26:43.647871",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T05:26:43.647871"
+  },
+  "observed_case_0_a1e599a6": {
+    "case_id": "observed_case_0_a1e599a6",
+    "timestamp": "2026-07-22T05:26:43.783219",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-22T05:26:43.783219"
+  },
+  "curated_case_0_c7ff94a6": {
+    "case_id": "curated_case_0_c7ff94a6",
+    "timestamp": "2026-07-17T05:28:42.713586",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T05:28:42.713586"
+  },
+  "curated_case_1_ba23664d": {
+    "case_id": "curated_case_1_ba23664d",
+    "timestamp": "2026-07-16T05:28:42.848130",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T05:28:42.848130"
+  },
+  "observed_case_0_19c61b7f": {
+    "case_id": "observed_case_0_19c61b7f",
+    "timestamp": "2026-07-22T05:28:42.977773",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-22T05:28:42.977773"
+  },
+  "curated_case_0_a664a56a": {
+    "case_id": "curated_case_0_a664a56a",
+    "timestamp": "2026-07-17T06:24:21.437479",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T06:24:21.437479"
+  },
+  "curated_case_1_c4546257": {
+    "case_id": "curated_case_1_c4546257",
+    "timestamp": "2026-07-16T06:24:21.545426",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T06:24:21.546429"
+  },
+  "observed_case_0_c627cb72": {
+    "case_id": "observed_case_0_c627cb72",
+    "timestamp": "2026-07-22T06:24:21.677022",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-22T06:24:21.677022"
+  },
+  "curated_case_0_b2acc9d3": {
+    "case_id": "curated_case_0_b2acc9d3",
+    "timestamp": "2026-07-17T07:15:59.678794",
+    "city": "Chennai",
+    "ward": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "environmental_state": {
+      "aqi": 180.0,
+      "pm25": 90.0,
+      "pm10": 140.0,
+      "no2": 25.0,
+      "so2": 8.0,
+      "co": 1.2,
+      "o3": 35.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 75.0,
+      "wind_speed": 1.8,
+      "wind_direction": 120.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 160.0,
+      "forecast_48h": 140.0,
+      "forecast_72h": 120.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Odd-Even Traffic Scheme",
+      "actual_action": "Odd-Even Traffic Scheme"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 155.0,
+      "aqi_after_48h": 138.0,
+      "aqi_after_72h": 115.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T07:15:59.678794"
+  },
+  "curated_case_1_08041303": {
+    "case_id": "curated_case_1_08041303",
+    "timestamp": "2026-07-16T07:15:59.855560",
+    "city": "Chennai",
+    "ward": "Ennore",
+    "latitude": 13.2161,
+    "longitude": 80.3247,
+    "environmental_state": {
+      "aqi": 210.0,
+      "pm25": 115.0,
+      "pm10": 190.0,
+      "no2": 45.0,
+      "so2": 18.0,
+      "co": 1.8,
+      "o3": 28.0
+    },
+    "weather_state": {
+      "temperature": 30.5,
+      "humidity": 80.0,
+      "wind_speed": 1.2,
+      "wind_direction": 45.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 220.0,
+      "forecast_48h": 200.0,
+      "forecast_72h": 180.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.9,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Factory Stack Filter Inspection",
+      "actual_action": "Factory Stack Filter Inspection"
+    },
+    "outcome_state": {
+      "aqi_after_24h": 205.0,
+      "aqi_after_48h": 185.0,
+      "aqi_after_72h": 160.0,
+      "improvement_status": "Improved"
+    },
+    "source": "curated",
+    "created_at": "2026-07-22T07:15:59.855560"
+  },
+  "observed_case_0_514b78c4": {
+    "case_id": "observed_case_0_514b78c4",
+    "timestamp": "2026-07-22T07:16:00.033666",
+    "city": "Chennai",
+    "ward": "Unknown",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 0.0,
+      "pm25": 35.0,
+      "pm10": 70.0,
+      "no2": 15.0,
+      "so2": 5.0,
+      "co": 0.5,
+      "o3": 20.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 60.0,
+      "wind_speed": 2.0,
+      "wind_direction": 90.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 0.0,
+      "forecast_48h": 0.0,
+      "forecast_72h": 0.0
+    },
+    "attribution_state": {
+      "dominant_source": "Industrial",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Industrial stack emissions limit enforcement",
+      "actual_action": "Industrial stack emissions limit enforcement"
+    },
+    "outcome_state": {
+      "aqi_after_24h": null,
+      "aqi_after_48h": null,
+      "aqi_after_72h": null,
+      "improvement_status": "Unknown"
+    },
+    "source": "observed",
+    "created_at": "2026-07-22T07:16:00.033666"
+  },
+  "case_test_audit_999": {
+    "case_id": "case_test_audit_999",
+    "timestamp": "2026-07-22T10:00:00Z",
+    "city": "Chennai",
+    "ward": "Central",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "environmental_state": {
+      "aqi": 185.0,
+      "pm25": 92.5,
+      "pm10": 140.0,
+      "no2": 35.0,
+      "so2": 12.0,
+      "co": 1.2,
+      "o3": 25.0
+    },
+    "weather_state": {
+      "temperature": 32.0,
+      "humidity": 68.0,
+      "wind_speed": 8.0,
+      "wind_direction": 180.0,
+      "rainfall": 0.0
+    },
+    "prediction_state": {
+      "forecast_24h": 162.0,
+      "forecast_48h": 150.0,
+      "forecast_72h": 145.0
+    },
+    "attribution_state": {
+      "dominant_source": "Traffic",
+      "confidence": 0.85,
+      "shap_summary": []
+    },
+    "intervention_state": {
+      "recommended_action": "Reduce heavy vehicle traffic in morning peak hours.",
+      "actual_action": "Heavy vehicles diverted to bypass road."
+    },
+    "outcome_state": {
+      "aqi_after_24h": 150.0,
+      "aqi_after_48h": 135.0,
+      "aqi_after_72h": 120.0,
+      "improvement_status": "Improved"
+    },
+    "source": "observed",
+    "created_at": "2026-07-22T10:49:03.242058"
+  }
+}

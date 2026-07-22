@@ -1,0 +1,17 @@
+{
+  "total_cases": 142,
+  "curated_knowledge_cases": 94,
+  "observed_cases": 48,
+  "overall_intervention_success_rate": 1.0,
+  "source_category_breakdown": {
+    "Traffic": {
+      "total_cases": 48,
+      "success_rate": 1.0
+    },
+    "Industrial": {
+      "total_cases": 94,
+      "success_rate": 1.0
+    }
+  },
+  "generated_timestamp": "2026-07-22T07:16:00.201158"
+}

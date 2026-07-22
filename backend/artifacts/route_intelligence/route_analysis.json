@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-07-16T12:37:42.165649",
+  "corridor_detected": {
+    "corridor_start": "Kathipara_Junction",
+    "corridor_end": "Saidapet_Junction",
+    "street_name": "Anna Salai Corridor Segment",
+    "risk_level": "High",
+    "dominant_source": "Traffic",
+    "forecast_aqi": 185.0
+  },
+  "routing_metrics": {
+    "origin": "Kathipara_Junction",
+    "destination": "Adyar_Junction",
+    "original_path": [
+      "Kathipara_Junction",
+      "Saidapet_Junction",
+      "Adyar_Junction"
+    ],
+    "original_distance_meters": 6000.0,
+    "original_time_sec": 495.0,
+    "diversion_point": "Anna_Salai_Corridor",
+    "upstream_distance_meters": 4300.0,
+    "alternate_path": [
+      "Kathipara_Junction",
+      "Saidapet_Junction",
+      "Anna_Salai_Corridor",
+      "Saidapet_Junction",
+      "Adyar_Junction"
+    ],
+    "alternate_distance_meters": 9600.0,
+    "alternate_time_sec": 754.2,
+    "detour_ratio": 1.6,
+    "extra_distance_km": 3.6,
+    "extra_time_min": 4.3,
+    "disruption_level": "HIGH",
+    "feasibility_tier": "Low",
+    "feasibility_score": 40.0
+  },
+  "diversion_recommendation": {
+    "corridor": "Anna Salai Corridor Segment",
+    "diversion_point": "Anna Salai Corridor",
+    "distance_before_corridor": "4.3 km",
+    "alternate_route": "Saidapet Junction via Anna Salai Corridor via Saidapet Junction",
+    "extra_distance": "3.6 km",
+    "extra_time": "4.3 min",
+    "expected_aqi_reduction": "3",
+    "expected_traffic_reduction": "5%",
+    "feasibility": "Low",
+    "confidence": "Low",
+    "reason": "Vehicular exhaust identified as dominant pollution source. Diverting traffic at Anna Salai Corridor bypasses the high-risk Anna Salai Corridor Segment segment, projecting an AQI reduction of ~3.7 points."
+  }
+}
