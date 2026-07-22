@@ -131,6 +131,18 @@ Automatically generate
 
 ---
 
+# Future developments
+
+ - Finetune Every features
+ - Clear Corridor reccomendations:
+     1. With traffic cameras or Open source satellite images,
+     2. Image processing traffic details,
+     3. Comparing results with Nearby stations report,
+     4. Finding Possible reroutes,
+     5. Rerouting the possible vehicles (Reduces traffic and Pollution by vehicles)
+
+---
+
 # 🏗 System Architecture
 
 ```text
