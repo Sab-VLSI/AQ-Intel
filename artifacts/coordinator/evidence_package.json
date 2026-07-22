@@ -1,0 +1,1867 @@
+{
+  "timestamp": "2026-07-16T11:38:23.792825",
+  "location": {
+    "city": "Chennai",
+    "ward": "Central",
+    "latitude": 13.0827,
+    "longitude": 80.2707
+  },
+  "environmental_state": {
+    "aqi": 185.0,
+    "pm25": 88.0,
+    "pm10": 150.0,
+    "no2": 35.0,
+    "so2": 12.0,
+    "co": 1.5,
+    "o3": 30.0
+  },
+  "weather_state": {
+    "temperature": 32.0,
+    "humidity": 68.0,
+    "wind_speed": 1.5,
+    "wind_direction": 90.0,
+    "rainfall": 0.0
+  },
+  "attribution": {
+    "dominant_source": "Mixed / Unknown",
+    "confidence": 0.26820436321183,
+    "probabilities": {
+      "traffic": 0.1640877122996413,
+      "industrial": 0.18034681295066013,
+      "biomass_burning": 0.17621433047088977,
+      "construction": 0.26820436321183,
+      "mixed_unknown": 0.21114678106697882
+    },
+    "top_contributors": [
+      "co",
+      "heavy_vehicle_score",
+      "so2"
+    ],
+    "shap_summary": [
+      {
+        "feature": "co",
+        "value": 1.5,
+        "shap_value": 0.26148858917511075,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "CO_HIGH",
+        "human_readable_reason": "Feature 'co' (value: 1.50) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 1
+      },
+      {
+        "feature": "heavy_vehicle_score",
+        "value": 0.0,
+        "shap_value": 0.032711874836256954,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "HEAVY_VEHICLE_SCORE_HIGH",
+        "human_readable_reason": "Feature 'heavy_vehicle_score' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 2
+      },
+      {
+        "feature": "so2",
+        "value": 12.0,
+        "shap_value": 0.02428149671814151,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "SO2_HIGH",
+        "human_readable_reason": "Feature 'so2' (value: 12.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 3
+      },
+      {
+        "feature": "road_density",
+        "value": 0.7,
+        "shap_value": -0.017510695749428318,
+        "direction": "decrease",
+        "source_category": "Construction",
+        "reason_code": "ROAD_DENSITY_LOW",
+        "human_readable_reason": "Feature 'road_density' (value: 0.70) acts to decrease dominant source prediction for 'Construction'.",
+        "rank": 4
+      },
+      {
+        "feature": "nearest_fire_bearing",
+        "value": 0.0,
+        "shap_value": 0.010011413723173069,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "NEAREST_FIRE_BEARING_HIGH",
+        "human_readable_reason": "Feature 'nearest_fire_bearing' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 5
+      },
+      {
+        "feature": "nearest_fire_distance",
+        "value": 0.0,
+        "shap_value": 0.009909908724094654,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "NEAREST_FIRE_DISTANCE_HIGH",
+        "human_readable_reason": "Feature 'nearest_fire_distance' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 6
+      },
+      {
+        "feature": "water_distance",
+        "value": 0.0,
+        "shap_value": -0.005942853584580082,
+        "direction": "decrease",
+        "source_category": "Construction",
+        "reason_code": "WATER_DISTANCE_LOW",
+        "human_readable_reason": "Feature 'water_distance' (value: 0.00) acts to decrease dominant source prediction for 'Construction'.",
+        "rank": 7
+      },
+      {
+        "feature": "road_congestion_score",
+        "value": 0.0,
+        "shap_value": -0.0044679294949511415,
+        "direction": "decrease",
+        "source_category": "Construction",
+        "reason_code": "ROAD_CONGESTION_SCORE_LOW",
+        "human_readable_reason": "Feature 'road_congestion_score' (value: 0.00) acts to decrease dominant source prediction for 'Construction'.",
+        "rank": 8
+      },
+      {
+        "feature": "traffic_density_score",
+        "value": 0.0,
+        "shap_value": 0.002720534340425983,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "TRAFFIC_DENSITY_SCORE_HIGH",
+        "human_readable_reason": "Feature 'traffic_density_score' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 9
+      },
+      {
+        "feature": "pm10",
+        "value": 150.0,
+        "shap_value": 2.989897240602158e-05,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "PM10_HIGH",
+        "human_readable_reason": "Feature 'pm10' (value: 150.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 10
+      },
+      {
+        "feature": "average_frp",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "AVERAGE_FRP_HIGH",
+        "human_readable_reason": "Feature 'average_frp' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 11
+      },
+      {
+        "feature": "construction_score",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "CONSTRUCTION_SCORE_HIGH",
+        "human_readable_reason": "Feature 'construction_score' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 12
+      },
+      {
+        "feature": "fire_count",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "FIRE_COUNT_HIGH",
+        "human_readable_reason": "Feature 'fire_count' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 13
+      },
+      {
+        "feature": "green_cover",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "GREEN_COVER_HIGH",
+        "human_readable_reason": "Feature 'green_cover' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 14
+      },
+      {
+        "feature": "humidity",
+        "value": 68.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "HUMIDITY_HIGH",
+        "human_readable_reason": "Feature 'humidity' (value: 68.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 15
+      },
+      {
+        "feature": "industrial_distance",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "INDUSTRIAL_DISTANCE_HIGH",
+        "human_readable_reason": "Feature 'industrial_distance' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 16
+      },
+      {
+        "feature": "maximum_frp",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "MAXIMUM_FRP_HIGH",
+        "human_readable_reason": "Feature 'maximum_frp' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 17
+      },
+      {
+        "feature": "nh3",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "NH3_HIGH",
+        "human_readable_reason": "Feature 'nh3' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 18
+      },
+      {
+        "feature": "no2",
+        "value": 35.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "NO2_HIGH",
+        "human_readable_reason": "Feature 'no2' (value: 35.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 19
+      },
+      {
+        "feature": "o3",
+        "value": 30.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "O3_HIGH",
+        "human_readable_reason": "Feature 'o3' (value: 30.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 20
+      },
+      {
+        "feature": "pm25",
+        "value": 88.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "PM25_HIGH",
+        "human_readable_reason": "Feature 'pm25' (value: 88.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 21
+      },
+      {
+        "feature": "precipitation",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "PRECIPITATION_HIGH",
+        "human_readable_reason": "Feature 'precipitation' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 22
+      },
+      {
+        "feature": "pressure",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "PRESSURE_HIGH",
+        "human_readable_reason": "Feature 'pressure' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 23
+      },
+      {
+        "feature": "station_distance",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "STATION_DISTANCE_HIGH",
+        "human_readable_reason": "Feature 'station_distance' (value: 0.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 24
+      },
+      {
+        "feature": "temperature",
+        "value": 32.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "TEMPERATURE_HIGH",
+        "human_readable_reason": "Feature 'temperature' (value: 32.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 25
+      },
+      {
+        "feature": "wind_direction",
+        "value": 90.0,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "WIND_DIRECTION_HIGH",
+        "human_readable_reason": "Feature 'wind_direction' (value: 90.00) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 26
+      },
+      {
+        "feature": "wind_speed",
+        "value": 1.5,
+        "shap_value": 0.0,
+        "direction": "increase",
+        "source_category": "Construction",
+        "reason_code": "WIND_SPEED_HIGH",
+        "human_readable_reason": "Feature 'wind_speed' (value: 1.50) acts to increase dominant source prediction for 'Construction'.",
+        "rank": 27
+      }
+    ]
+  },
+  "forecast": {
+    "forecast_aqi": 0.0,
+    "forecast_pm25": 0.0,
+    "pollution_event": {},
+    "top_drivers": []
+  },
+  "historical_validation": {
+    "similar_cases": [
+      {
+        "case_id": "curated_case_0_661f9a3a",
+        "similarity_score": 0.6545,
+        "freshness_score": 0.9973,
+        "evidence_quality": "HIGH",
+        "retrieval_confidence": 0.6545,
+        "distance_km": 6.03,
+        "timestamp_difference_days": 5,
+        "city": "Chennai",
+        "ward": "T Nagar",
+        "dominant_source": "Traffic",
+        "recommended_action": "Odd-Even Traffic Scheme",
+        "actual_action": "Odd-Even Traffic Scheme",
+        "outcome": "Improved"
+      },
+      {
+        "case_id": "curated_case_0_3119dcfb",
+        "similarity_score": 0.6545,
+        "freshness_score": 0.9973,
+        "evidence_quality": "HIGH",
+        "retrieval_confidence": 0.6545,
+        "distance_km": 6.03,
+        "timestamp_difference_days": 5,
+        "city": "Chennai",
+        "ward": "T Nagar",
+        "dominant_source": "Traffic",
+        "recommended_action": "Odd-Even Traffic Scheme",
+        "actual_action": "Odd-Even Traffic Scheme",
+        "outcome": "Improved"
+      },
+      {
+        "case_id": "test_case_123",
+        "similarity_score": 0.631,
+        "freshness_score": 1.0,
+        "evidence_quality": "MEDIUM",
+        "retrieval_confidence": 0.5364,
+        "distance_km": 8.62,
+        "timestamp_difference_days": 0,
+        "city": "Chennai",
+        "ward": "Adyar",
+        "dominant_source": "Traffic",
+        "recommended_action": "Odd-Even Scheme",
+        "actual_action": "Odd-Even Scheme",
+        "outcome": "Improved"
+      },
+      {
+        "case_id": "observed_case_0_6cabf633",
+        "similarity_score": 0.5848,
+        "freshness_score": 1.0,
+        "evidence_quality": "MEDIUM",
+        "retrieval_confidence": 0.4971,
+        "distance_km": 0.0,
+        "timestamp_difference_days": 0,
+        "city": "Chennai",
+        "ward": "Unknown",
+        "dominant_source": "Industrial",
+        "recommended_action": "Industrial stack emissions limit enforcement",
+        "actual_action": "Industrial stack emissions limit enforcement",
+        "outcome": "Unknown"
+      },
+      {
+        "case_id": "observed_case_0_389ba820",
+        "similarity_score": 0.5848,
+        "freshness_score": 1.0,
+        "evidence_quality": "MEDIUM",
+        "retrieval_confidence": 0.4971,
+        "distance_km": 0.0,
+        "timestamp_difference_days": 0,
+        "city": "Chennai",
+        "ward": "Unknown",
+        "dominant_source": "Industrial",
+        "recommended_action": "Industrial stack emissions limit enforcement",
+        "actual_action": "Industrial stack emissions limit enforcement",
+        "outcome": "Unknown"
+      }
+    ],
+    "best_similarity_score": 0.6545,
+    "success_rate": 1.0
+  },
+  "simulation_results": [
+    {
+      "scenario_id": "traffic_heavy_vehicle_diversion",
+      "scenario_name": "Heavy Vehicle Diversion",
+      "category": "Traffic",
+      "implementation_tag": "Immediate",
+      "cost_level": "Low",
+      "expected_duration_days": 3,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.5,
+      "recommendation_reason": "Heavy Vehicle Diversion is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "traffic_density",
+          "before": 0.85,
+          "after": 0.68,
+          "delta": -0.17,
+          "relative_change_pct": -20.0
+        },
+        {
+          "feature": "road_density",
+          "before": 0.7,
+          "after": 0.63,
+          "delta": -0.07,
+          "relative_change_pct": -10.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 47.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "traffic_peak_hour_restriction",
+      "scenario_name": "Peak-Hour Traffic Restriction",
+      "category": "Traffic",
+      "implementation_tag": "Immediate",
+      "cost_level": "Low",
+      "expected_duration_days": 7,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.5,
+      "recommendation_reason": "Peak-Hour Traffic Restriction is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "traffic_density",
+          "before": 0.85,
+          "after": 0.595,
+          "delta": -0.255,
+          "relative_change_pct": -30.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 31.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "construction_dust_suppression",
+      "scenario_name": "Construction Dust Suppression",
+      "category": "Construction",
+      "implementation_tag": "Immediate",
+      "cost_level": "Low",
+      "expected_duration_days": 1,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.5,
+      "recommendation_reason": "Construction Dust Suppression is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "construction_density",
+          "before": 0.3,
+          "after": 0.225,
+          "delta": -0.075,
+          "relative_change_pct": -25.0
+        },
+        {
+          "feature": "dust_source_proximity",
+          "before": 0.45,
+          "after": 0.405,
+          "delta": -0.045,
+          "relative_change_pct": -10.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 15.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "industrial_stack_monitoring",
+      "scenario_name": "Industrial Stack Monitoring",
+      "category": "Industrial",
+      "implementation_tag": "Short-Term",
+      "cost_level": "Low",
+      "expected_duration_days": 30,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.5,
+      "recommendation_reason": "Industrial Stack Monitoring is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "industrial_proximity",
+          "before": 0.4,
+          "after": 0.36,
+          "delta": -0.04,
+          "relative_change_pct": -10.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 15.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "biomass_burning_prohibition",
+      "scenario_name": "Biomass Burning Prohibition",
+      "category": "Biomass",
+      "implementation_tag": "Immediate",
+      "cost_level": "Low",
+      "expected_duration_days": 7,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.5,
+      "recommendation_reason": "Biomass Burning Prohibition is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "fire_radiative_power",
+          "before": 0.1,
+          "after": 0.02,
+          "delta": -0.08,
+          "relative_change_pct": -80.0
+        },
+        {
+          "feature": "fire_source_proximity",
+          "before": 0.2,
+          "after": 0.1,
+          "delta": -0.1,
+          "relative_change_pct": -50.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 16.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "env_street_washing",
+      "scenario_name": "Street Washing",
+      "category": "Environment",
+      "implementation_tag": "Immediate",
+      "cost_level": "Low",
+      "expected_duration_days": 1,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.5,
+      "recommendation_reason": "Street Washing is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "road_density",
+          "before": 0.7,
+          "after": 0.665,
+          "delta": -0.035,
+          "relative_change_pct": -5.0
+        },
+        {
+          "feature": "dust_source_proximity",
+          "before": 0.45,
+          "after": 0.3825,
+          "delta": -0.0675,
+          "relative_change_pct": -15.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 15.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "industrial_emission_reduction",
+      "scenario_name": "Industrial Emission Reduction",
+      "category": "Industrial",
+      "implementation_tag": "Short-Term",
+      "cost_level": "Medium",
+      "expected_duration_days": 14,
+      "current_aqi": 58.53,
+      "predicted_aqi": 57.43,
+      "expected_improvement": 1.1,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.4563,
+      "recommendation_reason": "Industrial Emission Reduction is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~1.1 points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "industrial_proximity",
+          "before": 0.4,
+          "after": 0.32,
+          "delta": -0.08,
+          "relative_change_pct": -20.0
+        },
+        {
+          "feature": "so2",
+          "before": 12.0,
+          "after": 10.2,
+          "delta": -1.8,
+          "relative_change_pct": -15.0
+        },
+        {
+          "feature": "no2",
+          "before": 35.0,
+          "after": 31.5,
+          "delta": -3.5,
+          "relative_change_pct": -10.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 31.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "traffic_alternate_routing",
+      "scenario_name": "Alternate Traffic Routing",
+      "category": "Traffic",
+      "implementation_tag": "Short-Term",
+      "cost_level": "Medium",
+      "expected_duration_days": 14,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.4475,
+      "recommendation_reason": "Alternate Traffic Routing is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "traffic_density",
+          "before": 0.85,
+          "after": 0.7225,
+          "delta": -0.1275,
+          "relative_change_pct": -15.0
+        },
+        {
+          "feature": "road_density",
+          "before": 0.7,
+          "after": 0.665,
+          "delta": -0.035,
+          "relative_change_pct": -5.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 16.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "construction_work_hour_restriction",
+      "scenario_name": "Construction Work-Hour Restriction",
+      "category": "Construction",
+      "implementation_tag": "Short-Term",
+      "cost_level": "Medium",
+      "expected_duration_days": 30,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.4475,
+      "recommendation_reason": "Construction Work-Hour Restriction is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "construction_density",
+          "before": 0.3,
+          "after": 0.18,
+          "delta": -0.12,
+          "relative_change_pct": -40.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 16.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "biomass_waste_collection",
+      "scenario_name": "Biomass Waste Collection",
+      "category": "Biomass",
+      "implementation_tag": "Short-Term",
+      "cost_level": "Medium",
+      "expected_duration_days": 14,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.4475,
+      "recommendation_reason": "Biomass Waste Collection is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "fire_radiative_power",
+          "before": 0.1,
+          "after": 0.06,
+          "delta": -0.04,
+          "relative_change_pct": -40.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 16.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "construction_temporary_suspension",
+      "scenario_name": "Construction Temporary Suspension",
+      "category": "Construction",
+      "implementation_tag": "Immediate",
+      "cost_level": "High",
+      "expected_duration_days": 7,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.4025,
+      "recommendation_reason": "Construction Temporary Suspension is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "construction_density",
+          "before": 0.3,
+          "after": 0.06,
+          "delta": -0.24,
+          "relative_change_pct": -80.0
+        },
+        {
+          "feature": "dust_source_proximity",
+          "before": 0.45,
+          "after": 0.225,
+          "delta": -0.225,
+          "relative_change_pct": -50.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 16.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    },
+    {
+      "scenario_id": "env_green_barrier",
+      "scenario_name": "Green Barrier Deployment",
+      "category": "Environment",
+      "implementation_tag": "Long-Term",
+      "cost_level": "High",
+      "expected_duration_days": 90,
+      "current_aqi": 58.53,
+      "predicted_aqi": 58.53,
+      "expected_improvement": 0.0,
+      "dominant_source": "Mixed / Unknown",
+      "source_confidence": 0.2682,
+      "simulation_confidence": "MEDIUM",
+      "recommendation_score": 0.4025,
+      "recommendation_reason": "Green Barrier Deployment is recommended because Mixed / Unknown is the dominant source (26.8% confidence). Simulation projects an AQI reduction of ~minimal points. 5 similar past event(s) support this action. Overall simulation confidence: MEDIUM.",
+      "top_feature_changes": [
+        {
+          "feature": "green_cover_index",
+          "before": 0.15,
+          "after": 0.165,
+          "delta": 0.015,
+          "relative_change_pct": 10.0
+        }
+      ],
+      "shap_diff": [
+        {
+          "feature": "o3",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "wind_speed",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "co",
+          "shap_before": 0.2615,
+          "shap_after": 0.2615,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "pm25",
+          "shap_before": 0.0,
+          "shap_after": 0.0,
+          "shap_delta": 0.0
+        },
+        {
+          "feature": "traffic_density_score",
+          "shap_before": 0.0027,
+          "shap_after": 0.0027,
+          "shap_delta": 0.0
+        }
+      ],
+      "historical_cases": [
+        {
+          "case_id": "case_abc",
+          "similarity_score": 0.4984,
+          "city": "Chennai",
+          "dominant_source": null,
+          "recommended_action": null,
+          "actual_action": null,
+          "outcome": null,
+          "distance_km": 8954.04,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_6cabf633",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "observed_case_0_389ba820",
+          "similarity_score": 0.4924,
+          "city": "Chennai",
+          "dominant_source": "Industrial",
+          "recommended_action": "Industrial stack emissions limit enforcement",
+          "actual_action": "Industrial stack emissions limit enforcement",
+          "outcome": "Unknown",
+          "distance_km": 0.0,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "test_case_123",
+          "similarity_score": 0.4156,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Scheme",
+          "actual_action": "Odd-Even Scheme",
+          "outcome": "Improved",
+          "distance_km": 8.62,
+          "timestamp_difference_days": 365
+        },
+        {
+          "case_id": "curated_case_0_661f9a3a",
+          "similarity_score": 0.3678,
+          "city": "Chennai",
+          "dominant_source": "Traffic",
+          "recommended_action": "Odd-Even Traffic Scheme",
+          "actual_action": "Odd-Even Traffic Scheme",
+          "outcome": "Improved",
+          "distance_km": 6.03,
+          "timestamp_difference_days": 365
+        }
+      ],
+      "processing_time_ms": 32.0,
+      "scenario_type": "single",
+      "conflict_warnings": []
+    }
+  ],
+  "pipeline_metadata": {
+    "attribution_model_version": "1.0.0",
+    "forecast_model_version": "1.0.0",
+    "feature_version": "1.0.0"
+  }
+}
